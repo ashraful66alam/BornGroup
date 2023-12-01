@@ -1,0 +1,33 @@
+body {
+  background: burlywood;
+  cursor: none;
+  /* height: 150vh; */
+}
+
+.rounded {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 208, 132, 1);
+  border-radius: 50%;
+  position: absolute;
+  z-index: 999;
+  pointer-events: none;
+  top: -10px;
+  left: -10px;
+}
+.inner {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+a {
+  display: block;
+}
+
+a:hover {
+  cursor: none;
+}
